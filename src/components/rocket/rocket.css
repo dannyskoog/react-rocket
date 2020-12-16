@@ -1,0 +1,73 @@
+.rocket .first-stage .top {
+  background: #000;
+  width: 70px;
+  height: 100px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  border-bottom: none;
+}
+
+.rocket .first-stage .bottom {
+  position: relative;
+  background: #fff;
+  width: 70px;
+  height: 500px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  border-top: none;
+}
+
+.rocket .second-stage .top {
+  background: #fff;
+  width: 80px;
+  height: 180px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  border-radius: 30px 30px 10px 10px;
+}
+
+.rocket .second-stage .bottom {
+  background: #fff;
+  width: 70px;
+  height: 100px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  border-top: none;
+}
+
+.rocket .grid-fin {
+  float: left;
+}
+
+.rocket .grid-fin:nth-child(even) {
+  float: right;
+}
+
+.rocket .first-stage .logo {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2em;
+  color: #005384;
+  text-orientation: upright;
+  writing-mode: vertical-lr;
+  letter-spacing: 30px;
+  margin: 0 auto;
+}
+
+.rocket .first-stage .landing-leg:nth-child(even) {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.rocket .first-stage .landing-leg:nth-child(odd) {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.rocket .first-stage .engines {
+  width: 70px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,49 @@
+.engine {
+  height: 0;
+  width: 13px;
+  border-bottom: 13px solid #000;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-radius: 3px;
+}
+
+/*.engine::after {
+  content: '';
+  display: block;
+  width: 5px;
+  height: 0;
+  border-bottom: 5px solid red;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  margin-top: 13px;
+}*/
+
+.flames {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -1px;
+}
+
+.flame {
+  display: inline-block;
+  margin: 1px;
+  height: 20px;
+  width: 1px;
+  background: red;
+}
+
+.flame:nth-child(1) {
+  transform: rotate(7deg);
+}
+
+.flame:nth-child(2) {
+  transform: rotate(3deg);
+}
+
+.flame:nth-child(4) {
+  transform: rotate(-3deg);
+}
+
+.flame:nth-child(5) {
+  transform: rotate(-7deg);
+}
