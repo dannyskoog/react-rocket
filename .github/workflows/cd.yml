@@ -1,0 +1,16 @@
+name: CD
+on:
+  push:
+    branches:
+      - master
+jobs:
+  deploy-github-pages:
+    runs-on: ubuntu-latest
+
+    steps:  
+      - name: Check out repository
+        uses: actions/checkout@v2
+      - name: Install Dependencies
+        run: npm install
+      - name: Deploy to github pages
+        run: npm run deploy
