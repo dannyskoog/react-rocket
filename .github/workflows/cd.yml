@@ -9,10 +9,10 @@ jobs:
 
     steps:  
       - name: Check out repository
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
         uses: actions/checkout@v2
       - name: Install Dependencies
         run: npm install
       - name: Deploy to github pages
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
         run: npm run deploy
