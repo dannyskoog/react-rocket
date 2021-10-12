@@ -9,10 +9,12 @@ jobs:
 
     steps:  
       - name: Check out repository
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
         uses: actions/checkout@v2
       - name: Install Dependencies
         run: npm install
       - name: Deploy to github pages
-        run: npm run deploy
+        run: |
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          npx gh-pages -d build -u "github-actions-bot <support+actions@github.com>"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
