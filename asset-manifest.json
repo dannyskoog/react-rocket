@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-rocket/static/css/main.7fbf99aa.chunk.css",
-    "main.js": "/react-rocket/static/js/main.b0718369.chunk.js",
-    "main.js.map": "/react-rocket/static/js/main.b0718369.chunk.js.map",
+    "main.js": "/react-rocket/static/js/main.da0b3266.chunk.js",
+    "main.js.map": "/react-rocket/static/js/main.da0b3266.chunk.js.map",
     "runtime-main.js": "/react-rocket/static/js/runtime-main.c42a2f64.js",
     "runtime-main.js.map": "/react-rocket/static/js/runtime-main.c42a2f64.js.map",
     "static/js/2.32ee5745.chunk.js": "/react-rocket/static/js/2.32ee5745.chunk.js",
@@ -11,13 +11,12 @@
     "static/js/3.d55cb7c7.chunk.js.map": "/react-rocket/static/js/3.d55cb7c7.chunk.js.map",
     "index.html": "/react-rocket/index.html",
     "static/css/main.7fbf99aa.chunk.css.map": "/react-rocket/static/css/main.7fbf99aa.chunk.css.map",
-    "static/js/2.32ee5745.chunk.js.LICENSE.txt": "/react-rocket/static/js/2.32ee5745.chunk.js.LICENSE.txt",
-    "static/media/logo.103b5fa1.svg": "/react-rocket/static/media/logo.103b5fa1.svg"
+    "static/js/2.32ee5745.chunk.js.LICENSE.txt": "/react-rocket/static/js/2.32ee5745.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c42a2f64.js",
     "static/js/2.32ee5745.chunk.js",
     "static/css/main.7fbf99aa.chunk.css",
-    "static/js/main.b0718369.chunk.js"
+    "static/js/main.da0b3266.chunk.js"
   ]
 }
